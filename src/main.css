@@ -16,6 +16,15 @@
   width: 100px;
 }
 
+header {
+  align-items: center;
+  justify-content: space-between;
+  .header-title {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 nav {
   ul {
     li {
@@ -23,6 +32,26 @@ nav {
     }
     a {
       text-decoration: none;
+      background-color: red;
+      border-radius: 20px;
+      padding: 0.5em 1em;
+      margin: 1em;
+      display: flex
     }
   }
+}
+
+main {
+  width: 33vw;
+  min-width: 300px;
+  z-index: 1;
+}
+
+.bg-image {
+  height: 80vh;
+  width: 66vw;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  z-index: 0;
 }
