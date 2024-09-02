@@ -42,16 +42,22 @@ nav {
 }
 
 main {
-  width: 33vw;
+  width: 25vw;
   min-width: 300px;
   z-index: 1;
+  position: relative;
+  margin-top: 4em;
+  margin-left: 6em;
+  text-align: center;
 }
 
 .bg-image {
   height: 80vh;
-  width: 66vw;
-  background-color: pink;
+  width: 75vw;
+  background-image: url(img/background.png);
+  background-size: cover;
   position: fixed;
-  top: 0;
+  bottom: 0;
+  right: 0;
   z-index: 0;
 }
