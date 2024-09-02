@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@font-face {
+  font-family: 'Arthemis';
+  src: url("font/Arthemis-PKY27.ttf")
+}
+.font-a {
+  font-family: 'Arthemis', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .flex {
@@ -22,6 +31,9 @@ header {
   .header-title {
     justify-content: center;
     align-items: center;
+    h1 {
+      font-size: 4rem;  
+    }
   }
 }
 
@@ -49,6 +61,12 @@ main {
   margin-top: 4em;
   margin-left: 6em;
   text-align: center;
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
 .bg-image {
