@@ -59,7 +59,9 @@ nav {
       background-color: var(--sec-col);
       padding: 0.5em 1em;
       margin: 1em;
-      display: flex
+      display: flex;
+      background-image: url(img/buttonoverlay.png);
+      background-size: cover;
     }
   }
 }
