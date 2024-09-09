@@ -74,6 +74,11 @@ main {
   margin-top: 4em;
   margin-left: 6em;
   text-align: center;
+  &.wide-main {
+    width: 70vw;
+    min-width: 600px;
+    margin: 4em auto 0;
+  }
   h1 {
     font-size: 2.5rem;
   }
@@ -94,4 +99,14 @@ main {
   bottom: 0;
   right: 0;
   z-index: 0;
+}
+
+.about-me{
+  padding: 1em;
+  margin-left: -7em;
+  margin-right: 1em;
+  background-color: var(--sec-col);
+  img{
+    height: 200px;
+  }
 }
