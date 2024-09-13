@@ -1,8 +1,14 @@
 :root {
   --main-col: #F5F5F5;
-  --sec-col: #48CFCB;
-  --sec-col-dark: #229799;
-  --tert-col: #424242;
+  --sec-col: #bbd5e8;
+  --sec-col-dark: #92b4d2;
+  --tert-col: #cab1d2;
+  --tert-col-dark: ##b69bc1;
+  --font-col: #424242;
+
+  
+  /* --sec-col: #48CFCB; */
+  /* --sec-col-dark: #229799; */
 }
 
 * {
@@ -10,7 +16,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  color: var(--tert-col);
+  color: var(--font-col);
 }
 
 @font-face {
