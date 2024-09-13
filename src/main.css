@@ -90,6 +90,17 @@ main {
   }
 }
 
+article {
+  background-color: var(--sec-col);
+  padding: 1em;
+  margin: 1em;
+  .article-image {
+    img {
+      height: 200px;
+    }
+  }
+}
+
 .bg-image {
   height: 80vh;
   width: 75vw;
